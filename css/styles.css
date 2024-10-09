@@ -1,0 +1,26 @@
+ body {
+    background-color: #f6f5f5;
+    /* color: transparent; */
+ }
+
+ ul {
+   list-style: none;
+ }
+
+ img {
+   display: block;
+   max-width: 100%;
+   height: auto;
+   cursor: zoom-in;
+ }
+
+.gallery {
+   display: flex;
+   gap: 20px;
+   flex-wrap: wrap;
+}
+
+ .gallery-image {
+   width: 360px;
+   height: 200px;
+ }
